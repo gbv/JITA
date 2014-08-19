@@ -12,5 +12,9 @@
         * use notations instead of inofficial mnemonics
 
 * Add German translations
+    * Some labels seem to be available at 
+      <http://www.destin-informatique.com/askosi/view.jsp?scheme=jita>
+      but not at FOA
+
 * Convert Concept Scheme to JSON
 * Extract mappings and convert to JSON and/or BEACON
