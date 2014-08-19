@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://aims.fao.org/aos/jita/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:void="http://rdfs.org/ns/void#" xmlns:wv="http://vocab.org/waiver/terms/norms" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:terms="http://vocab.org/waiver/terms/">
+	<void:DatasetDescription rdf:about="http://aims.fao.org/aos/jita/void.rdf">
+		<dcterms:title>A VoID Description of the JITA Dataset</dcterms:title>
+		<foaf:primaryTopic>
+			<void:Dataset rdf:about="http://aims.fao.org/aos/jita/void.rdf#JITA">
+				<foaf:homepage rdf:resource="http://aims.fao.org/aos/agrovoc/jita" />
+				<foaf:page rdf:resource="http://www.destin-informatique.com/ASKOSI/Wiki.jsp?page=JITA%20Maintenance" />
+				<foaf:page rdf:resource="http://eprints.rclis.org/handle/10760/3619" />
+				<foaf:page rdf:resource="http://ckan.net/package/jita" />
+				<foaf:page rdf:resource="http://eprints.rclis.org/cms/jita/" />
+				<dcterms:title xml:lang="ar">نظام تصنيف JITA لعلوم المكتبات والمعلومات [الإصدار 2002/11/11]</dcterms:title>
+				<dcterms:title xml:lang="en">JITA Classification System of Library and Information Science [2002-11-11 version]</dcterms:title>
+				<dcterms:title xml:lang="es">JITA Sistema de clasificación de Ciencias de la información y biblioteconomía [2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="ca">Classificació JITA de Biblioteconomia i Documentació [2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="fr">Système de classement JITA pour les Sciences de l'Information et de la Documentation [version du 2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="el">Το ταξινομικό σύστημα JITA για τη Βιβλιοθηκονομία και την Επιστήμη της Πληροφόρησης [έκδοση 2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="it">JITA Sistema di classificazione per la biblioteconomia e le scienze dell'informazione [versione 2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="pt">Sistema de Classificação JITA para as Ciências da Informação [versão de 2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="ro">Sistemul de clasificare JITA pentru Bibliologie și Științele Informării [versiunea 2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="tr">JITA Kütüphane ve Enformasyon Bilimi Sınıflama Sistemi [2002-11-11 versiyon]</dcterms:title>
+				<dcterms:title xml:lang="pl">JITA System klasyfikacji bibliotekoznawstwa i informacji naukowej [2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="cs">Klasifikační systém JITA pro Knihovní a informační vědu [2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="nl">JITA, classificatiesysteem van de informatie- en bibliotheekwetenschap [2002-11-11 versie]</dcterms:title>
+				<dcterms:title xml:lang="ru">Система Классификации JITA по Библиотечным и Информационным Наукам [версия 2002-11-11]</dcterms:title>
+				<dcterms:title xml:lang="sv">JITA Klassifikationssystem för biblioteks- och informationsvetenskap [version 2002-11-11]</dcterms:title>
+				<dcterms:description xml:lang="en">The JITA Classification Schema has been developed starting from a merger of NewsAgentTopic Classification Scheme (maintained by Mike Keen at Aberystwyth, UK, until 31st March 1998) and the RIS classification scheme of the (now defunct) Review of Information Science originally conceived by Dagobert Soergel (University of Maryland).  JITA is an acronym of the authors' first names: &lt;J&gt;osé Manuel Barrueco Cruz, &lt;I&gt;mma Subirats Coll, &lt;T&gt;homas Krichel and &lt;A&gt;ntonella De Robbio.  The authors thank Michael Keen, University of Wales Aberystwyth and Andy Powell, UKOLN for the permission of the using NewsAgentTopic Classification Scheme in the development of this schema.  In addition, the authors are grateful for comments by Lorcan Dempsey (OCLC) and Sophie Rigny (Library of Congress).</dcterms:description>
+				<dcterms:creator>Barrueco Cruz, José Manuel</dcterms:creator>
+				<dcterms:creator>Subirats Coll, Imma</dcterms:creator>
+				<dcterms:creator>Krichel, Thomas</dcterms:creator>
+				<dcterms:creator>De Robbio, Antonella</dcterms:creator>
+				<dcterms:source rdf:resource="http://rclis.org/internal/jita.txt" />
+				<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-11-11</dcterms:created>
+				<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-21</dcterms:issued>
+				<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-07</dcterms:modified>
+				<dcterms:license rdf:resource="http://www.opendatacommons.org/licenses/odbl/" />
+				<terms:normsnorms rdf:resource="http://www.opendatacommons.org/norms/odc-by-sa/" />
+				<dcterms:subject rdf:resource="http://JITA.org/resource/Library_and_information_science" />
+				<void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+				<void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples" />
+				<void:sparqlEndpoint rdf:resource="http://202.73.13.50:55824/catalogs/performance/repositories/jita" />
+				<void:feature rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_XML" />
+				<void:dataDump rdf:resource="http://www.destin-informatique.com/scheme/skos.jsp?about=jita" />
+				<void:rootResource rdf:resource="http://aims.fao.org/aos/jita/T" />
+				<void:rootResource rdf:resource="http://aims.fao.org/aos/jita/P" />
+				<void:rootResource rdf:resource="http://aims.fao.org/aos/jita/O" />
+				<void:exampleResource rdf:resource="http://aims.fao.org/aos/jita/THLI" />
+				<void:uriLookupEndpoint rdf:resource="http://www.destin-informatique.com/askosi/search.jsp?scheme=jita&amp;leftTruncation=on&amp;query=" />
+				<void:uriSpace>http://aims.fao.org/aos/jita/</void:uriSpace>
+				<void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core#" />
+				<void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2250</void:triples>
+				<void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:classes>
+				<void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</void:properties>
+				<void:classPartition>
+					<rdf:Description>
+						<void:class rdf:resource="http://aims.fao.org/aos/jita/ConceptScheme" />
+						<void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+					</rdf:Description>
+				</void:classPartition>
+				<void:classPartition>
+					<rdf:Description>
+						<void:class rdf:resource="http://aims.fao.org/aos/jita/Concept" />
+						<void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</void:entities>
+					</rdf:Description>
+				</void:classPartition>
+			</void:Dataset>
+		</foaf:primaryTopic>
+	</void:DatasetDescription>
+	<void:Linkset rdf:about="http://aims.fao.org/aos/jita/void.rdf#JITA2DBpedia">
+		<void:subjectsTarget rdf:resource="http://aims.fao.org/aos/jita/void.rdf#JITA" />
+		<void:objectsTarget>
+			<void:Dataset rdf:about="http://aims.fao.org/aos/jita/void.rdf#DBpedia">
+				<foaf:homepage rdf:resource="http://dbpedia.org/" />
+				<foaf:page rdf:resource="http://ckan.net/package/dbpedia" />
+				<foaf:page rdf:resource="http://dbpedia.org/Downloads" />
+				<void:uriSpace>http://dbpedia.org/resource/</void:uriSpace>
+			</void:Dataset>
+		</void:objectsTarget>
+		<void:linkPredicate rdf:resource="http://aims.fao.org/aos/jita/definition" />
+		<void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</void:triples>
+	</void:Linkset>
+	<void:Linkset rdf:about="http://aims.fao.org/aos/jita/void.rdf#JITA2DDC">
+		<void:subjectsTarget rdf:resource="http://aims.fao.org/aos/jita/void.rdf#JITA" />
+		<void:objectsTarget>
+			<void:Dataset rdf:about="http://aims.fao.org/aos/jita/void.rdf#DDC">
+				<foaf:homepage rdf:resource="http://dewey.info/" />
+				<foaf:page rdf:resource="http://ckan.net/package/dewey_decimal_classification" />
+				<void:uriSpace>http://dewey.info/</void:uriSpace>
+			</void:Dataset>
+		</void:objectsTarget>
+		<void:linkPredicate rdf:resource="http://aims.fao.org/aos/jita/historyNote" />
+		<void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</void:triples>
+	</void:Linkset>
+</rdf:RDF>

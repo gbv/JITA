@@ -1,0 +1,93 @@
+# VoID Description of the JITA Dataset, expressed in RDF/Turtle
+# Rretrieved at 2014-08-19 from http://www.askosi.org/jita/void.rdf
+# Conversion to readable RDF/Turtle by Jakob Voß
+
+@prefix jita: <http://aims.fao.org/aos/jita/void.rdf#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://aims.fao.org/aos/jita/void.rdf> a void:DatasetDescription ;
+    dct:title "A VoID Description of the JITA Dataset" .
+    foaf:primaryTopic jita:JITA .
+
+jita:JITA a void:Dataset ;
+    foaf:homepage <http://aims.fao.org/aos/agrovoc/jita> ;
+    foaf:page <http://www.destin-informatique.com/ASKOSI/Wiki.jsp?page=JITA%20Maintenance> ;
+    foaf:page <http://eprints.rclis.org/handle/10760/3619> ;
+    foaf:page <http://ckan.net/package/jita> ;
+    foaf:page <http://eprints.rclis.org/cms/jita/> ;
+    dct:title "\u0646\u0638\u0627\u0645 \u062A\u0635\u0646\u064A\u0641 JITA \u0644\u0639\u0644\u0648\u0645 \u0627\u0644\u0645\u0643\u062A\u0628\u0627\u062A \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A [\u0627\u0644\u0625\u0635\u062F\u0627\u0631 2002/11/11]"@ar ;
+    dct:title "JITA Classification System of Library and Information Science [2002-11-11 version]"@en ;
+    dct:title "JITA Sistema de clasificaci\u00F3n de Ciencias de la informaci\u00F3n y biblioteconom\u00EDa [2002-11-11]"@es ;
+    dct:title "Classificaci\u00F3 JITA de Biblioteconomia i Documentaci\u00F3 [2002-11-11]"@ca ;
+    dct:title "Syst\u00E8me de classement JITA pour les Sciences de l'Information et de la Documentation [version du 2002-11-11]"@fr ;
+    dct:title "\u03A4\u03BF \u03C4\u03B1\u03BE\u03B9\u03BD\u03BF\u03BC\u03B9\u03BA\u03CC \u03C3\u03CD\u03C3\u03C4\u03B7\u03BC\u03B1 JITA \u03B3\u03B9\u03B1 \u03C4\u03B7 \u0392\u03B9\u03B2\u03BB\u03B9\u03BF\u03B8\u03B7\u03BA\u03BF\u03BD\u03BF\u03BC\u03AF\u03B1 \u03BA\u03B1\u03B9 \u03C4\u03B7\u03BD \u0395\u03C0\u03B9\u03C3\u03C4\u03AE\u03BC\u03B7 \u03C4\u03B7\u03C2 \u03A0\u03BB\u03B7\u03C1\u03BF\u03C6\u03CC\u03C1\u03B7\u03C3\u03B7\u03C2 [\u03AD\u03BA\u03B4\u03BF\u03C3\u03B7 2002-11-11]"@el ;
+    dct:title "JITA Sistema di classificazione per la biblioteconomia e le scienze dell'informazione [versione 2002-11-11]"@it ;
+    dct:title "Sistema de Classifica\u00E7\u00E3o JITA para as Ci\u00EAncias da Informa\u00E7\u00E3o [vers\u00E3o de 2002-11-11]"@pt ;
+    dct:title "Sistemul de clasificare JITA pentru Bibliologie \u0219i \u0218tiin\u021Bele Inform\u0103rii [versiunea 2002-11-11]"@ro ;
+    dct:title "JITA K\u00FCt\u00FCphane ve Enformasyon Bilimi S\u0131n\u0131flama Sistemi [2002-11-11 versiyon]"@tr ;
+    dct:title "JITA System klasyfikacji bibliotekoznawstwa i informacji naukowej [2002-11-11]"@pl ;
+    dct:title "Klasifika\u010Dn\u00ED syst\u00E9m JITA pro Knihovn\u00ED a informa\u010Dn\u00ED v\u011Bdu [2002-11-11]"@cs ;
+    dct:title "JITA, classificatiesysteem van de informatie- en bibliotheekwetenschap [2002-11-11 versie]"@nl ;
+    dct:title "\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u041A\u043B\u0430\u0441\u0441\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438 JITA \u043F\u043E \u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u0447\u043D\u044B\u043C \u0438 \u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u043C \u041D\u0430\u0443\u043A\u0430\u043C [\u0432\u0435\u0440\u0441\u0438\u044F 2002-11-11]"@ru ;
+    dct:title "JITA Klassifikationssystem f\u00F6r biblioteks- och informationsvetenskap [version 2002-11-11]"@sv ;
+    dct:description "The JITA Classification Schema has been developed starting from a merger of NewsAgentTopic Classification Scheme (maintained by Mike Keen at Aberystwyth, UK, until 31st March 1998) and the RIS classification scheme of the (now defunct) Review of Information Science originally conceived by Dagobert Soergel (University of Maryland).  JITA is an acronym of the authors' first names: <J>os\u00E9 Manuel Barrueco Cruz, <I>mma Subirats Coll, <T>homas Krichel and <A>ntonella De Robbio.  The authors thank Michael Keen, University of Wales Aberystwyth and Andy Powell, UKOLN for the permission of the using NewsAgentTopic Classification Scheme in the development of this schema.  In addition, the authors are grateful for comments by Lorcan Dempsey (OCLC) and Sophie Rigny (Library of Congress)."@en ;
+    dct:creator "Barrueco Cruz, Jos\u00E9 Manuel" ;
+    dct:creator "Subirats Coll, Imma" ;
+    dct:creator "Krichel, Thomas" ;
+    dct:creator "De Robbio, Antonella" ;
+    dct:source <http://rclis.org/internal/jita.txt> ;
+    dct:created "2002-11-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:issued "2011-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:modified "2011-12-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:license <http://www.opendatacommons.org/licenses/odbl/> ;
+    <http://vocab.org/waiver/terms/normsnorms> <http://www.opendatacommons.org/norms/odc-by-sa/> ;
+    dct:subject <http://JITA.org/resource/Library_and_information_science> ;
+    void:feature <http://www.w3.org/ns/formats/RDF_XML> ;
+    void:feature <http://www.w3.org/ns/formats/N-Triples> ;
+    void:sparqlEndpoint <http://202.73.13.50:55824/catalogs/performance/repositories/jita> ;
+    void:feature <http://www.w3.org/ns/formats/SPARQL_Results_XML> ;
+    void:dataDump <http://www.destin-informatique.com/scheme/skos.jsp?about=jita> ;
+    void:rootResource 
+        <http://aims.fao.org/aos/jita/T> ,
+        <http://aims.fao.org/aos/jita/P> ,
+        <http://aims.fao.org/aos/jita/O> ;
+    void:exampleResource <http://aims.fao.org/aos/jita/THLI> ;
+    void:uriLookupEndpoint <http://www.destin-informatique.com/askosi/search.jsp?scheme=jita&leftTruncation=on&query=> ;
+    void:uriSpace "http://aims.fao.org/aos/jita/" ;
+    void:vocabulary <http://www.w3.org/2004/02/skos/core#> ;
+    void:triples 2250 ;
+    void:classes 2 ;
+    void:properties 40 ;
+    void:classPartition [
+        void:class <http://aims.fao.org/aos/jita/ConceptScheme> ;
+        void:entities 1 
+    ] , [
+        void:class <http://aims.fao.org/aos/jita/Concept> ;
+        void:entities 138
+    ] .
+
+jita:DBpedia a void:Dataset ;
+    foaf:homepage <http://dbpedia.org/> ;
+    foaf:page <http://ckan.net/package/dbpedia> ;
+    foaf:page <http://dbpedia.org/Downloads> ;
+    void:uriSpace "http://dbpedia.org/resource/" .
+
+jita:JITA2DBpedia a void:Linkset ;
+    void:subjectsTarget jita:JITA ;
+    void:objectsTarget jita:DBpedia ;
+    void:linkPredicate <http://aims.fao.org/aos/jita/definition> ;
+    void:triples 95 .
+
+jita:DDC a void:Dataset ;
+    foaf:homepage <http://dewey.info/> ;
+    foaf:page <http://ckan.net/package/dewey_decimal_classification> ;
+    void:uriSpace "http://dewey.info/" .
+
+jita:JITA2DDC a void:Linkset ;
+    void:subjectsTarget jita:JITA ;
+    void:objectsTarget jita:DDC ;
+    void:linkPredicate <http://aims.fao.org/aos/jita/historyNote> ;
+    void:triples 86 .
+
