@@ -1,0 +1,50 @@
+# Deutsche Übersetzung von JITA
+# Quelle: http://www.destin-informatique.com/scheme/view.jsp?scheme=jita
+# Übertragen und angepasst von Jakob Voß
+
+1. [Theoretisch und allgemein]: Allgemeines Niveau
+
+    A. Theoretische und allgemeine Aspekte von Bibliotheken und Informationen
+
+        AA. Bibliotheks- und Informationswissenschaften als Disziplin        
+        AB. Bibliotheks- und Informationstheorien        
+        AC. Beziehungen zwischen Bibliotheks- und Informationswissenschaften und anderen Fächern
+        AZ. Sonstiges in diesem Bereich
+
+    B. Nutzung von Informationen und Informationssoziologie
+
+        BA. Gebrauch und Einfluss von Informationen    
+        BB. Bibliometrische Verfahren      
+        BC. Informationen in der Gesellschaft      
+        BD. Informationsgesellschaft       
+        BE. Informationsökonomie       
+        BF. Informationspolitik    
+        BG. Verbreitung von Informationen      
+        BH. Analyse des Informationsbedarfs und Informationsanforderungen      
+        BI. Nutzeroberflächen und Usability
+        AZ. Sonstiges in diesem Bereich
+
+2. [Benutzerorientierte und direktionale Funktionen sowie Managementfunktionen]: Intermediäres Niveau (Sozio-ökonomische und rechtliche Angelegenheiten miteingeschlossen)
+
+    C. Benutzer und Alphabetisierung
+
+    D. Bibliotheken als physikalische Sammlungen
+
+    E. Veröffentlichung und rechtliche Angelegenheiten
+
+    F. Management
+
+    G. Industrie, Beruf und Bildung
+
+
+3. [Objekte, pragmatische und technische Angelegenheiten]: Spezifisches Niveau
+
+    H. Informationsquellen, Unterstützung, Kanäle
+
+    I. Umgang mit Informationen für Informationsdienste, Funktionen von Informationen und Informationstechniken
+
+    J. Technische Dienstleistungen in Bibliotheken, Archiven und Museen
+
+    K. Gebäudetechnologien
+
+    L. Informationstechnologie und Bibliothekstechnologie
