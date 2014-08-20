@@ -22,29 +22,160 @@
         BG. Verbreitung von Informationen      
         BH. Analyse des Informationsbedarfs und Informationsanforderungen      
         BI. Nutzeroberflächen und Usability
-        AZ. Sonstiges in diesem Bereich
+        BZ. Sonstiges in diesem Bereich
 
 2. [Benutzerorientierte und direktionale Funktionen sowie Managementfunktionen]: Intermediäres Niveau (Sozio-ökonomische und rechtliche Angelegenheiten miteingeschlossen)
 
-    C. Benutzer und Alphabetisierung
+    C. Benutzer und Literacy
+
+        CA. Studien zur Nutzung
+        CB. Benutzerstudien
+        CC. Benutzerkategorien: Kinder, junge Menschen, soziale Gruppen
+        CD. Anwendertraining, Promotion, Aktivitäten, Bildung
+        CE. Literacy
+        CF. Lektüre und Erzählungen
+        CZ. Sonstiges in diesem Bereich
 
     D. Bibliotheken als physikalische Sammlungen
 
+        DA. Internationale Bibliotheken     
+        DB. Nationalbibliotheken       
+        DC. Öffentliche Bibliotheken       
+        DD. Akademische Bibliotheken       
+        DE. Schulbibliotheken       
+        DF. Staatliche Bibliotheken     
+        DG. Private Bibliotheken        
+        DH. Spezial- und Fachbibliotheken       
+        DI. Wissenschaftliche Bibliotheken      
+        DJ. Technische Bibliotheken     
+        DK. Bibliotheken in den Bereichen Medizin und Gesundheit       
+        DL. Archive    
+        DM. Museen
+        DZ. Sonstiges in diesem Bereich
+
     E. Veröffentlichung und rechtliche Angelegenheiten
+
+        EA. Massenmedien
+        EB. Drucken, elektronische Veröffentlichung, Austrahlungen
+        EC. Buchverkauf
+        ED. Geistiges Eigentum: Autorenrechte, Eigentum, Urheberrecht und Copyleft
+        EE. Intellektuelle Freiheit
+        EF. Zensur
+        EZ. Sonstiges in diesem Bereich
 
     F. Management
 
+        FA. Kooperationen      
+        FB. Marketing      
+        FC. Finanzielles        
+        FD. Öffentlichkeitsarbeit       
+        FE. Personalmanagement     
+        FF. Finanzierung        
+        FG. Lokale Verwaltung       
+        FH. Umstrukturierung        
+        FI. Unabhängige Autoritäten
+        FZ. Sonstiges in diesem Bereich
+
     G. Industrie, Beruf und Bildung
 
+        GA. Informationsindustrie      
+        GB. Softwareindustrie       
+        GC. Computer- und Telekommunikationsindustrie       
+        GD. Organisationen     
+        GE. Mitarbeiterstab    
+        GF. Biografien      
+        GG. Lernpläne      
+        GH. Bildung und Erziehung      
+        GI. Weiterbildung
+        GZ. Sonstiges in diesem Bereich
 
 3. [Objekte, pragmatische und technische Angelegenheiten]: Spezifisches Niveau
 
     H. Informationsquellen, Unterstützung, Kanäle
 
+        HA. Zeitschriften, Zeitungen     
+        HB. Graue Literatur     
+        HC. Archivierte Materialien    
+        HD. Seltene Bücher und Manuskripte     
+        DE. Printmaterialien        
+        HF. Mikroformen     
+        HG. Nicht-Printmaterialien      
+        HH. Audio-visuell, Multimedia      
+        HI. Elektronische Medien       
+        HJ. CD-ROM      
+        HK. Online Hosts        
+        HL. Datenbanken und Vernetzung von Datenbanken     
+        HM. OPACs      
+        HN. e-Journals
+        HO. e-Books
+        HP. e-Resourcen    
+        HQ. Webseiten      
+        HR. Portale    
+        HS. Repositorien       
+        HZ. Sonstiges in diesem Bereich
+
     I. Umgang mit Informationen für Informationsdienste, Funktionen von Informationen und Informationstechniken
+
+        IA. Katalogisierung, bibliografische Kontrolle       
+        IB. Inhaltsanalyse: Zusammenfassungen, Indizierung, Klassifizierungen      
+        IC. Indizierungssprachen, Prozesse und Schemata    
+        ID. Daten- und Metadatenstrukturen     
+        IE. Repräsentation von Wissen      
+        IF. Informationstransfer: Protokolle, Formate (z.B. XML), Techniken    
+        IG. Präsentationsformen von Informationen: Hypertext, Hypermedien      
+        IH. Bildsysteme     
+        II. Filterung       
+        IJ. Referenzarbeiten       
+        IK. Design, Entwicklung, Implementierung und Wartung von Informationssystemen und Diensten
+        IZ. Sonstiges in diesem Bereich
 
     J. Technische Dienstleistungen in Bibliotheken, Archiven und Museen
 
+        JA. Akquisen
+        JB. Zeitschriftenverwaltung     
+        JC. Rücknahme        
+        JD. Bestandsaufnahme         
+        JE. Buchführung     
+        JF. Konservierung von Dokumenten        
+        JG. Digitalisierung    
+        JH. Digitale Konservierung     
+        JI. Zirkulation     
+        JJ. Dokumentenlieferung     
+        JK. Fernleihe       
+        JZ. Sonstiges in diesem Bereich
+
     K. Gebäudetechnologien
 
+        KA. Ressource-Zentren     
+        KB. Bibliotheks-, Archivs- und Museumsgebäude       
+        KC. Möbel        
+        KD. Fahrzeuge        
+        KE. Architektur     
+        KF. Planung, Design, Demontage      
+        KG. Sicherheit      
+        KH. Notfallmaßnahmen        
+        KZ. Sonstiges in diesem Bereich
+
     L. Informationstechnologie und Bibliothekstechnologie
+
+        LA. Telekommunikation     
+        LB. Computernetzwerke      
+        LC. Internet, WWW eingeschlossen       
+        LD. Computer        
+        LE. Scanner      
+        LF. Digitalkameras       
+        LG. Fotokopierer         
+        LH. Computer- und Netzwerksicherheit        
+        LI. Authentifizierung und Zugangskontrolle      
+        LJ. Software       
+        LK. Methoden der Softwareentwicklung        
+        LL. Automatisierte Sprachverarbeitung       
+        LM. Automatische Textrecherche      
+        LN. Datenbankmanagementsysteme     
+        LO. Objektorientierte DBMS      
+        LP. Intelligente Agenten        
+        LQ. Automatisierte Bibliothekssysteme      
+        LR. OPAC-Systeme       
+        LS. Suchmaschinen
+        LZ. Sonstiges in diesem Bereich
+

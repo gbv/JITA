@@ -471,3 +471,155 @@
 <LZ> a skos:Concept ;
 	skos:notation "LZ" ;
 	skos:prefLabel "None of these, but in this section."@en .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://example.org/jita/> .
+<1> skos:prefLabel "[Theoretisch und allgemein]: Allgemeines Niveau"@de .
+<A> skos:prefLabel "Theoretische und allgemeine Aspekte von Bibliotheken und Informationen"@de .
+<AA> skos:prefLabel "Bibliotheks- und Informationswissenschaften als Disziplin"@de .
+<AB> skos:prefLabel "Bibliotheks- und Informationstheorien"@de .
+<AC> skos:prefLabel "Beziehungen zwischen Bibliotheks- und Informationswissenschaften und anderen Fächern"@de .
+<AZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<B> skos:prefLabel "Nutzung von Informationen und Informationssoziologie"@de .
+<BA> skos:prefLabel "Gebrauch und Einfluss von Informationen"@de .
+<BB> skos:prefLabel "Bibliometrische Verfahren"@de .
+<BC> skos:prefLabel "Informationen in der Gesellschaft"@de .
+<BD> skos:prefLabel "Informationsgesellschaft"@de .
+<BE> skos:prefLabel "Informationsökonomie"@de .
+<BF> skos:prefLabel "Informationspolitik"@de .
+<BG> skos:prefLabel "Verbreitung von Informationen"@de .
+<BH> skos:prefLabel "Analyse des Informationsbedarfs und Informationsanforderungen"@de .
+<BI> skos:prefLabel "Nutzeroberflächen und Usability"@de .
+<BZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<2> skos:prefLabel "[Benutzerorientierte und direktionale Funktionen sowie Managementfunktionen]: Intermediäres Niveau (Sozio-ökonomische und rechtliche Angelegenheiten miteingeschlossen)"@de .
+<C> skos:prefLabel "Benutzer und Literacy"@de .
+<CA> skos:prefLabel "Studien zur Nutzung"@de .
+<CB> skos:prefLabel "Benutzerstudien"@de .
+<CC> skos:prefLabel "Benutzerkategorien: Kinder, junge Menschen, soziale Gruppen"@de .
+<CD> skos:prefLabel "Anwendertraining, Promotion, Aktivitäten, Bildung"@de .
+<CE> skos:prefLabel "Literacy"@de .
+<CF> skos:prefLabel "Lektüre und Erzählungen"@de .
+<CZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<D> skos:prefLabel "Bibliotheken als physikalische Sammlungen"@de .
+<DA> skos:prefLabel "Internationale Bibliotheken"@de .
+<DB> skos:prefLabel "Nationalbibliotheken"@de .
+<DC> skos:prefLabel "Öffentliche Bibliotheken"@de .
+<DD> skos:prefLabel "Akademische Bibliotheken"@de .
+<DE> skos:prefLabel "Schulbibliotheken"@de .
+<DF> skos:prefLabel "Staatliche Bibliotheken"@de .
+<DG> skos:prefLabel "Private Bibliotheken"@de .
+<DH> skos:prefLabel "Spezial- und Fachbibliotheken"@de .
+<DI> skos:prefLabel "Wissenschaftliche Bibliotheken"@de .
+<DJ> skos:prefLabel "Technische Bibliotheken"@de .
+<DK> skos:prefLabel "Bibliotheken in den Bereichen Medizin und Gesundheit"@de .
+<DL> skos:prefLabel "Archive"@de .
+<DM> skos:prefLabel "Museen"@de .
+<DZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<E> skos:prefLabel "Veröffentlichung und rechtliche Angelegenheiten"@de .
+<EA> skos:prefLabel "Massenmedien"@de .
+<EB> skos:prefLabel "Drucken, elektronische Veröffentlichung, Austrahlungen"@de .
+<EC> skos:prefLabel "Buchverkauf"@de .
+<ED> skos:prefLabel "Geistiges Eigentum: Autorenrechte, Eigentum, Urheberrecht und Copyleft"@de .
+<EE> skos:prefLabel "Intellektuelle Freiheit"@de .
+<EF> skos:prefLabel "Zensur"@de .
+<EZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<F> skos:prefLabel "Management"@de .
+<FA> skos:prefLabel "Kooperationen"@de .
+<FB> skos:prefLabel "Marketing"@de .
+<FC> skos:prefLabel "Finanzielles"@de .
+<FD> skos:prefLabel "Öffentlichkeitsarbeit"@de .
+<FE> skos:prefLabel "Personalmanagement"@de .
+<FF> skos:prefLabel "Finanzierung"@de .
+<FG> skos:prefLabel "Lokale Verwaltung"@de .
+<FH> skos:prefLabel "Umstrukturierung"@de .
+<FI> skos:prefLabel "Unabhängige Autoritäten"@de .
+<FZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<G> skos:prefLabel "Industrie, Beruf und Bildung"@de .
+<GA> skos:prefLabel "Informationsindustrie"@de .
+<GB> skos:prefLabel "Softwareindustrie"@de .
+<GC> skos:prefLabel "Computer- und Telekommunikationsindustrie"@de .
+<GD> skos:prefLabel "Organisationen"@de .
+<GE> skos:prefLabel "Mitarbeiterstab"@de .
+<GF> skos:prefLabel "Biografien"@de .
+<GG> skos:prefLabel "Lernpläne"@de .
+<GH> skos:prefLabel "Bildung und Erziehung"@de .
+<GI> skos:prefLabel "Weiterbildung"@de .
+<GZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<3> skos:prefLabel "[Objekte, pragmatische und technische Angelegenheiten]: Spezifisches Niveau"@de .
+<H> skos:prefLabel "Informationsquellen, Unterstützung, Kanäle"@de .
+<HA> skos:prefLabel "Zeitschriften, Zeitungen"@de .
+<HB> skos:prefLabel "Graue Literatur"@de .
+<HC> skos:prefLabel "Archivierte Materialien"@de .
+<HD> skos:prefLabel "Seltene Bücher und Manuskripte"@de .
+<DE> skos:prefLabel "Printmaterialien"@de .
+<HF> skos:prefLabel "Mikroformen"@de .
+<HG> skos:prefLabel "Nicht-Printmaterialien"@de .
+<HH> skos:prefLabel "Audio-visuell, Multimedia"@de .
+<HI> skos:prefLabel "Elektronische Medien"@de .
+<HJ> skos:prefLabel "CD-ROM"@de .
+<HK> skos:prefLabel "Online Hosts"@de .
+<HL> skos:prefLabel "Datenbanken und Vernetzung von Datenbanken"@de .
+<HM> skos:prefLabel "OPACs"@de .
+<HN> skos:prefLabel "e-Journals"@de .
+<HO> skos:prefLabel "e-Books"@de .
+<HP> skos:prefLabel "e-Resourcen"@de .
+<HQ> skos:prefLabel "Webseiten"@de .
+<HR> skos:prefLabel "Portale"@de .
+<HS> skos:prefLabel "Repositorien"@de .
+<HZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<I> skos:prefLabel "Umgang mit Informationen für Informationsdienste, Funktionen von Informationen und Informationstechniken"@de .
+<IA> skos:prefLabel "Katalogisierung, bibliografische Kontrolle"@de .
+<IB> skos:prefLabel "Inhaltsanalyse: Zusammenfassungen, Indizierung, Klassifizierungen"@de .
+<IC> skos:prefLabel "Indizierungssprachen, Prozesse und Schemata"@de .
+<ID> skos:prefLabel "Daten- und Metadatenstrukturen"@de .
+<IE> skos:prefLabel "Repräsentation von Wissen"@de .
+<IF> skos:prefLabel "Informationstransfer: Protokolle, Formate (z.B. XML), Techniken"@de .
+<IG> skos:prefLabel "Präsentationsformen von Informationen: Hypertext, Hypermedien"@de .
+<IH> skos:prefLabel "Bildsysteme"@de .
+<II> skos:prefLabel "Filterung"@de .
+<IJ> skos:prefLabel "Referenzarbeiten"@de .
+<IK> skos:prefLabel "Design, Entwicklung, Implementierung und Wartung von Informationssystemen und Diensten"@de .
+<IZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<J> skos:prefLabel "Technische Dienstleistungen in Bibliotheken, Archiven und Museen"@de .
+<JA> skos:prefLabel "Akquisen"@de .
+<JB> skos:prefLabel "Zeitschriftenverwaltung"@de .
+<JC> skos:prefLabel "Rücknahme"@de .
+<JD> skos:prefLabel "Bestandsaufnahme"@de .
+<JE> skos:prefLabel "Buchführung"@de .
+<JF> skos:prefLabel "Konservierung von Dokumenten"@de .
+<JG> skos:prefLabel "Digitalisierung"@de .
+<JH> skos:prefLabel "Digitale Konservierung"@de .
+<JI> skos:prefLabel "Zirkulation"@de .
+<JJ> skos:prefLabel "Dokumentenlieferung"@de .
+<JK> skos:prefLabel "Fernleihe"@de .
+<JZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<K> skos:prefLabel "Gebäudetechnologien"@de .
+<KA> skos:prefLabel "Ressource-Zentren"@de .
+<KB> skos:prefLabel "Bibliotheks-, Archivs- und Museumsgebäude"@de .
+<KC> skos:prefLabel "Möbel"@de .
+<KD> skos:prefLabel "Fahrzeuge"@de .
+<KE> skos:prefLabel "Architektur"@de .
+<KF> skos:prefLabel "Planung, Design, Demontage"@de .
+<KG> skos:prefLabel "Sicherheit"@de .
+<KH> skos:prefLabel "Notfallmaßnahmen"@de .
+<KZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
+<L> skos:prefLabel "Informationstechnologie und Bibliothekstechnologie"@de .
+<LA> skos:prefLabel "Telekommunikation"@de .
+<LB> skos:prefLabel "Computernetzwerke"@de .
+<LC> skos:prefLabel "Internet, WWW eingeschlossen"@de .
+<LD> skos:prefLabel "Computer"@de .
+<LE> skos:prefLabel "Scanner"@de .
+<LF> skos:prefLabel "Digitalkameras"@de .
+<LG> skos:prefLabel "Fotokopierer"@de .
+<LH> skos:prefLabel "Computer- und Netzwerksicherheit"@de .
+<LI> skos:prefLabel "Authentifizierung und Zugangskontrolle"@de .
+<LJ> skos:prefLabel "Software"@de .
+<LK> skos:prefLabel "Methoden der Softwareentwicklung"@de .
+<LL> skos:prefLabel "Automatisierte Sprachverarbeitung"@de .
+<LM> skos:prefLabel "Automatische Textrecherche"@de .
+<LN> skos:prefLabel "Datenbankmanagementsysteme"@de .
+<LO> skos:prefLabel "Objektorientierte DBMS"@de .
+<LP> skos:prefLabel "Intelligente Agenten"@de .
+<LQ> skos:prefLabel "Automatisierte Bibliothekssysteme"@de .
+<LR> skos:prefLabel "OPAC-Systeme"@de .
+<LS> skos:prefLabel "Suchmaschinen"@de .
+<LZ> skos:prefLabel "Sonstiges in diesem Bereich"@de .
