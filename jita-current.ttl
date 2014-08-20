@@ -1,0 +1,473 @@
+@prefix dcq: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@base <http://example.org/jita/> .
+
+<http://example.org/jita/> dcq:title "JITA Classification System of Library and Information Science"@en ;
+	a skos:ConceptScheme ;
+	skos:hasTopConcept <1>, <2>, <3> .
+<1> a skos:Concept ;
+	skos:narrower <A>, <B> ;
+	skos:notation "1" ;
+	skos:prefLabel "Theoretical and General"@en .
+<2> a skos:Concept ;
+	skos:narrower <C>, <D>, <E>, <F>, <G> ;
+	skos:notation "2" ;
+	skos:prefLabel "User oriented, directional, and management functionalities"@en .
+<3> a skos:Concept ;
+	skos:narrower <H>, <I>, <J>, <K>, <L> ;
+	skos:notation "3" ;
+	skos:prefLabel "Objects, Pragmatics and Technicalities"@en .
+<A> a skos:Concept ;
+	skos:narrower <AA>, <AB>, <AC>, <AZ> ;
+	skos:notation "A" ;
+	skos:prefLabel "Theoretical and general aspects of libraries and information."@en .
+<AA> a skos:Concept ;
+	skos:notation "AA" ;
+	skos:prefLabel "Library and information science as a field."@en .
+<AB> a skos:Concept ;
+	skos:notation "AB" ;
+	skos:prefLabel "Information theory and library theory."@en .
+<AC> a skos:Concept ;
+	skos:notation "AC" ;
+	skos:prefLabel "Relationship of LIS with other fields ."@en .
+<AZ> a skos:Concept ;
+	skos:notation "AZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<B> a skos:Concept ;
+	skos:narrower <BA>, <BB>, <BC>, <BD>, <BE>, <BF>, <BG>, <BH>, <BI>, <BZ> ;
+	skos:notation "B" ;
+	skos:prefLabel "Information use and sociology of information."@en .
+<BA> a skos:Concept ;
+	skos:notation "BA" ;
+	skos:prefLabel "Use and impact of information."@en .
+<BB> a skos:Concept ;
+	skos:notation "BB" ;
+	skos:prefLabel "Bibliometric methods."@en .
+<BC> a skos:Concept ;
+	skos:notation "BC" ;
+	skos:prefLabel "Information in society."@en .
+<BD> a skos:Concept ;
+	skos:notation "BD" ;
+	skos:prefLabel "Information society."@en .
+<BE> a skos:Concept ;
+	skos:notation "BE" ;
+	skos:prefLabel "Information economics."@en .
+<BF> a skos:Concept ;
+	skos:notation "BF" ;
+	skos:prefLabel "Information policy"@en .
+<BG> a skos:Concept ;
+	skos:notation "BG" ;
+	skos:prefLabel "Information dissemination and diffusion."@en .
+<BH> a skos:Concept ;
+	skos:notation "BH" ;
+	skos:prefLabel "Information needs and information requirements analysis."@en .
+<BI> a skos:Concept ;
+	skos:notation "BI" ;
+	skos:prefLabel "User interfaces, usability."@en .
+<BZ> a skos:Concept ;
+	skos:notation "BZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<C> a skos:Concept ;
+	skos:narrower <CA>, <CB>, <CC>, <CD>, <CE>, <CF>, <CZ> ;
+	skos:notation "C" ;
+	skos:prefLabel "Users, literacy and reading."@en .
+<CA> a skos:Concept ;
+	skos:notation "CA" ;
+	skos:prefLabel "Use studies."@en .
+<CB> a skos:Concept ;
+	skos:notation "CB" ;
+	skos:prefLabel "User studies."@en .
+<CC> a skos:Concept ;
+	skos:notation "CC" ;
+	skos:prefLabel "User categories: children, young people, social groups."@en .
+<CD> a skos:Concept ;
+	skos:notation "CD" ;
+	skos:prefLabel "User training, promotion, activities, education."@en .
+<CE> a skos:Concept ;
+	skos:notation "CE" ;
+	skos:prefLabel "Literacy."@en .
+<CF> a skos:Concept ;
+	skos:notation "CF" ;
+	skos:prefLabel "Reading and story telling."@en .
+<CZ> a skos:Concept ;
+	skos:notation "CZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<D> a skos:Concept ;
+	skos:narrower <DA>, <DB>, <DC>, <DD>, <DE>, <DF>, <DG>, <DH>, <DI>, <DJ>, <DK>, <DL>, <DM>, <DZ> ;
+	skos:notation "D" ;
+	skos:prefLabel "Libraries as physical collections."@en .
+<DA> a skos:Concept ;
+	skos:notation "DA" ;
+	skos:prefLabel "World libraries."@en .
+<DB> a skos:Concept ;
+	skos:notation "DB" ;
+	skos:prefLabel "National libraries."@en .
+<DC> a skos:Concept ;
+	skos:notation "DC" ;
+	skos:prefLabel "Public libraries."@en .
+<DD> a skos:Concept ;
+	skos:notation "DD" ;
+	skos:prefLabel "Academic libraries."@en .
+<DE> a skos:Concept ;
+	skos:notation "DE" ;
+	skos:prefLabel "School libraries."@en .
+<DF> a skos:Concept ;
+	skos:notation "DF" ;
+	skos:prefLabel "Government libraries."@en .
+<DG> a skos:Concept ;
+	skos:notation "DG" ;
+	skos:prefLabel "Private libraries."@en .
+<DH> a skos:Concept ;
+	skos:notation "DH" ;
+	skos:prefLabel "Special libraries."@en .
+<DI> a skos:Concept ;
+	skos:notation "DI" ;
+	skos:prefLabel "Science libraries."@en .
+<DJ> a skos:Concept ;
+	skos:notation "DJ" ;
+	skos:prefLabel "Technical libraries."@en .
+<DK> a skos:Concept ;
+	skos:notation "DK" ;
+	skos:prefLabel "Health libraries, Medical libraries."@en .
+<DL> a skos:Concept ;
+	skos:notation "DL" ;
+	skos:prefLabel "Archives."@en .
+<DM> a skos:Concept ;
+	skos:notation "DM" ;
+	skos:prefLabel "Museums."@en .
+<DZ> a skos:Concept ;
+	skos:notation "DZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<E> a skos:Concept ;
+	skos:narrower <EA>, <EB>, <EC>, <ED>, <EE>, <EF>, <EZ> ;
+	skos:notation "E" ;
+	skos:prefLabel "Publishing and legal issues."@en .
+<EA> a skos:Concept ;
+	skos:notation "EA" ;
+	skos:prefLabel "Mass media."@en .
+<EB> a skos:Concept ;
+	skos:notation "EB" ;
+	skos:prefLabel "Printing, electronic publishing, broadcasting."@en .
+<EC> a skos:Concept ;
+	skos:notation "EC" ;
+	skos:prefLabel "Book selling."@en .
+<ED> a skos:Concept ;
+	skos:notation "ED" ;
+	skos:prefLabel "Intellectual property: author's rights, ownership, copyright, copyleft."@en .
+<EE> a skos:Concept ;
+	skos:notation "EE" ;
+	skos:prefLabel "Intellectual freedom."@en .
+<EF> a skos:Concept ;
+	skos:notation "EF" ;
+	skos:prefLabel "Censorship."@en .
+<EZ> a skos:Concept ;
+	skos:notation "EZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<F> a skos:Concept ;
+	skos:narrower <FA>, <FB>, <FC>, <FD>, <FE>, <FF>, <FG>, <FH>, <FI>, <FZ> ;
+	skos:notation "F" ;
+	skos:prefLabel "Management."@en .
+<FA> a skos:Concept ;
+	skos:notation "FA" ;
+	skos:prefLabel "Co-operation."@en .
+<FB> a skos:Concept ;
+	skos:notation "FB" ;
+	skos:prefLabel "Marketing."@en .
+<FC> a skos:Concept ;
+	skos:notation "FC" ;
+	skos:prefLabel "Finance."@en .
+<FD> a skos:Concept ;
+	skos:notation "FD" ;
+	skos:prefLabel "Public relations."@en .
+<FE> a skos:Concept ;
+	skos:notation "FE" ;
+	skos:prefLabel "Personnel management."@en .
+<FF> a skos:Concept ;
+	skos:notation "FF" ;
+	skos:prefLabel "Funding."@en .
+<FG> a skos:Concept ;
+	skos:notation "FG" ;
+	skos:prefLabel "Local government."@en .
+<FH> a skos:Concept ;
+	skos:notation "FH" ;
+	skos:prefLabel "Reorganization."@en .
+<FI> a skos:Concept ;
+	skos:notation "FI" ;
+	skos:prefLabel "Unitary authorities."@en .
+<FZ> a skos:Concept ;
+	skos:notation "FZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<G> a skos:Concept ;
+	skos:narrower <GA>, <GB>, <GC>, <GD>, <GE>, <GF>, <GG>, <GH>, <GI>, <GZ> ;
+	skos:notation "G" ;
+	skos:prefLabel "Industry, profession and education."@en .
+<GA> a skos:Concept ;
+	skos:notation "GA" ;
+	skos:prefLabel "Information industry."@en .
+<GB> a skos:Concept ;
+	skos:notation "GB" ;
+	skos:prefLabel "Software industry."@en .
+<GC> a skos:Concept ;
+	skos:notation "GC" ;
+	skos:prefLabel "Computer and telecommunication industry."@en .
+<GD> a skos:Concept ;
+	skos:notation "GD" ;
+	skos:prefLabel "Organizations."@en .
+<GE> a skos:Concept ;
+	skos:notation "GE" ;
+	skos:prefLabel "Staff."@en .
+<GF> a skos:Concept ;
+	skos:notation "GF" ;
+	skos:prefLabel "Biographies."@en .
+<GG> a skos:Concept ;
+	skos:notation "GG" ;
+	skos:prefLabel "Curricula aspects."@en .
+<GH> a skos:Concept ;
+	skos:notation "GH" ;
+	skos:prefLabel "Education."@en .
+<GI> a skos:Concept ;
+	skos:notation "GI" ;
+	skos:prefLabel "Training."@en .
+<GZ> a skos:Concept ;
+	skos:notation "GZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<H> a skos:Concept ;
+	skos:narrower <HA>, <HB>, <HC>, <HD>, <HE>, <HF>, <HG>, <HH>, <HI>, <HJ>, <HK>, <HL>, <HM>, <HN>, <HO>, <HP>, <HQ>, <HR>, <HS>, <HZ> ;
+	skos:notation "H" ;
+	skos:prefLabel "Information sources, supports, channels."@en .
+<HA> a skos:Concept ;
+	skos:notation "HA" ;
+	skos:prefLabel "Periodicals, Newspapers."@en .
+<HB> a skos:Concept ;
+	skos:notation "HB" ;
+	skos:prefLabel "Gray literature."@en .
+<HC> a skos:Concept ;
+	skos:notation "HC" ;
+	skos:prefLabel "Archival materials."@en .
+<HD> a skos:Concept ;
+	skos:notation "HD" ;
+	skos:prefLabel "Rare books and manuscripts."@en .
+<HE> a skos:Concept ;
+	skos:notation "HE" ;
+	skos:prefLabel "Print materials."@en .
+<HF> a skos:Concept ;
+	skos:notation "HF" ;
+	skos:prefLabel "Microforms."@en .
+<HG> a skos:Concept ;
+	skos:notation "HG" ;
+	skos:prefLabel "Non-print materials."@en .
+<HH> a skos:Concept ;
+	skos:notation "HH" ;
+	skos:prefLabel "Audio-visual, Multimedia."@en .
+<HI> a skos:Concept ;
+	skos:notation "HI" ;
+	skos:prefLabel "Electronic Media."@en .
+<HJ> a skos:Concept ;
+	skos:notation "HJ" ;
+	skos:prefLabel "CD-ROM."@en .
+<HK> a skos:Concept ;
+	skos:notation "HK" ;
+	skos:prefLabel "Online hosts."@en .
+<HL> a skos:Concept ;
+	skos:notation "HL" ;
+	skos:prefLabel "Databases and database Networking."@en .
+<HM> a skos:Concept ;
+	skos:notation "HM" ;
+	skos:prefLabel "OPACs."@en .
+<HN> a skos:Concept ;
+	skos:notation "HN" ;
+	skos:prefLabel "e-journals."@en .
+<HO> a skos:Concept ;
+	skos:notation "HO" ;
+	skos:prefLabel "e-books."@en .
+<HP> a skos:Concept ;
+	skos:notation "HP" ;
+	skos:prefLabel "e-resources."@en .
+<HQ> a skos:Concept ;
+	skos:notation "HQ" ;
+	skos:prefLabel "Web pages."@en .
+<HR> a skos:Concept ;
+	skos:notation "HR" ;
+	skos:prefLabel "Portals."@en .
+<HS> a skos:Concept ;
+	skos:notation "HS" ;
+	skos:prefLabel "Repositories."@en .
+<HZ> a skos:Concept ;
+	skos:notation "HZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<I> a skos:Concept ;
+	skos:narrower <IA>, <IB>, <IC>, <ID>, <IE>, <IF>, <IG>, <IH>, <II>, <IJ>, <IK>, <IZ> ;
+	skos:notation "I" ;
+	skos:prefLabel "Information treatment for information services"@en .
+<IA> a skos:Concept ;
+	skos:notation "IA" ;
+	skos:prefLabel "Cataloging, bibliographic control."@en .
+<IB> a skos:Concept ;
+	skos:notation "IB" ;
+	skos:prefLabel "Content analysis (A and I, class.)"@en .
+<IC> a skos:Concept ;
+	skos:notation "IC" ;
+	skos:prefLabel "Index languages, processes and schemes."@en .
+<ID> a skos:Concept ;
+	skos:notation "ID" ;
+	skos:prefLabel "Knowledge representation."@en .
+<IE> a skos:Concept ;
+	skos:notation "IE" ;
+	skos:prefLabel "Data and metadata structures."@en .
+<IF> a skos:Concept ;
+	skos:notation "IF" ;
+	skos:prefLabel "Information transfer: protocols, formats, techniques."@en .
+<IG> a skos:Concept ;
+	skos:notation "IG" ;
+	skos:prefLabel "Information presentation: hypertext, hypermedia."@en .
+<IH> a skos:Concept ;
+	skos:notation "IH" ;
+	skos:prefLabel "Image systems."@en .
+<II> a skos:Concept ;
+	skos:notation "II" ;
+	skos:prefLabel "Filtering."@en .
+<IJ> a skos:Concept ;
+	skos:notation "IJ" ;
+	skos:prefLabel "Reference work."@en .
+<IK> a skos:Concept ;
+	skos:notation "IK" ;
+	skos:prefLabel "Design, development, implementation and maintenance"@en .
+<IZ> a skos:Concept ;
+	skos:notation "IZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<J> a skos:Concept ;
+	skos:narrower <JA>, <JB>, <JC>, <JD>, <JE>, <JF>, <JG>, <JH>, <JI>, <JJ>, <JK>, <JZ> ;
+	skos:notation "J" ;
+	skos:prefLabel "Technical services in libraries, archives, museum."@en .
+<JA> a skos:Concept ;
+	skos:notation "JA" ;
+	skos:prefLabel "Acquisitions."@en .
+<JB> a skos:Concept ;
+	skos:notation "JB" ;
+	skos:prefLabel "Serials management."@en .
+<JC> a skos:Concept ;
+	skos:notation "JC" ;
+	skos:prefLabel "Withdrawals."@en .
+<JD> a skos:Concept ;
+	skos:notation "JD" ;
+	skos:prefLabel "Stock taking."@en .
+<JE> a skos:Concept ;
+	skos:notation "JE" ;
+	skos:prefLabel "Record keeping."@en .
+<JF> a skos:Concept ;
+	skos:notation "JF" ;
+	skos:prefLabel "Paper preservation."@en .
+<JG> a skos:Concept ;
+	skos:notation "JG" ;
+	skos:prefLabel "Digitization."@en .
+<JH> a skos:Concept ;
+	skos:notation "JH" ;
+	skos:prefLabel "Digital preservation."@en .
+<JI> a skos:Concept ;
+	skos:notation "JI" ;
+	skos:prefLabel "Circulation."@en .
+<JJ> a skos:Concept ;
+	skos:notation "JJ" ;
+	skos:prefLabel "Document delivery."@en .
+<JK> a skos:Concept ;
+	skos:notation "JK" ;
+	skos:prefLabel "Interlibrary loans."@en .
+<JZ> a skos:Concept ;
+	skos:notation "JZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<K> a skos:Concept ;
+	skos:narrower <KA>, <KB>, <KC>, <KD>, <KE>, <KF>, <KG>, <KH>, <KZ> ;
+	skos:notation "K" ;
+	skos:prefLabel "Housing technologies."@en .
+<KA> a skos:Concept ;
+	skos:notation "KA" ;
+	skos:prefLabel "Resources centers."@en .
+<KB> a skos:Concept ;
+	skos:notation "KB" ;
+	skos:prefLabel "Library, archive and museum buildings."@en .
+<KC> a skos:Concept ;
+	skos:notation "KC" ;
+	skos:prefLabel "Furniture."@en .
+<KD> a skos:Concept ;
+	skos:notation "KD" ;
+	skos:prefLabel "Vehicles."@en .
+<KE> a skos:Concept ;
+	skos:notation "KE" ;
+	skos:prefLabel "Architecture."@en .
+<KF> a skos:Concept ;
+	skos:notation "KF" ;
+	skos:prefLabel "Planning, Design, Removal."@en .
+<KG> a skos:Concept ;
+	skos:notation "KG" ;
+	skos:prefLabel "Safety."@en .
+<KH> a skos:Concept ;
+	skos:notation "KH" ;
+	skos:prefLabel "Disaster planning."@en .
+<KZ> a skos:Concept ;
+	skos:notation "KZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
+<L> a skos:Concept ;
+	skos:narrower <LA>, <LB>, <LC>, <LD>, <LE>, <LF>, <LG>, <LH>, <LI>, <LJ>, <LK>, <LL>, <LM>, <LN>, <LO>, <LP>, <LQ>, <LR>, <LS>, <LZ> ;
+	skos:notation "L" ;
+	skos:prefLabel "Information technology and library technology."@en .
+<LA> a skos:Concept ;
+	skos:notation "LA" ;
+	skos:prefLabel "Telecommunications."@en .
+<LB> a skos:Concept ;
+	skos:notation "LB" ;
+	skos:prefLabel "Computer networking."@en .
+<LC> a skos:Concept ;
+	skos:notation "LC" ;
+	skos:prefLabel "Internet, including WWW."@en .
+<LD> a skos:Concept ;
+	skos:notation "LD" ;
+	skos:prefLabel "Computers."@en .
+<LE> a skos:Concept ;
+	skos:notation "LE" ;
+	skos:prefLabel "Scanners."@en .
+<LF> a skos:Concept ;
+	skos:notation "LF" ;
+	skos:prefLabel "Digital cameras."@en .
+<LG> a skos:Concept ;
+	skos:notation "LG" ;
+	skos:prefLabel "Photocopiers."@en .
+<LH> a skos:Concept ;
+	skos:notation "LH" ;
+	skos:prefLabel "Computer and network security."@en .
+<LI> a skos:Concept ;
+	skos:notation "LI" ;
+	skos:prefLabel "Authentication, and access control."@en .
+<LJ> a skos:Concept ;
+	skos:notation "LJ" ;
+	skos:prefLabel "Software."@en .
+<LK> a skos:Concept ;
+	skos:notation "LK" ;
+	skos:prefLabel "Software methodologies and engineering."@en .
+<LL> a skos:Concept ;
+	skos:notation "LL" ;
+	skos:prefLabel "Automated language processing."@en .
+<LM> a skos:Concept ;
+	skos:notation "LM" ;
+	skos:prefLabel "Automatic text retrieval."@en .
+<LN> a skos:Concept ;
+	skos:notation "LN" ;
+	skos:prefLabel "Data base management systems."@en .
+<LO> a skos:Concept ;
+	skos:notation "LO" ;
+	skos:prefLabel "Object-oriented DBMS."@en .
+<LP> a skos:Concept ;
+	skos:notation "LP" ;
+	skos:prefLabel "Intelligent agents."@en .
+<LQ> a skos:Concept ;
+	skos:notation "LQ" ;
+	skos:prefLabel "Library automation systems."@en .
+<LR> a skos:Concept ;
+	skos:notation "LR" ;
+	skos:prefLabel "OPAC systems."@en .
+<LS> a skos:Concept ;
+	skos:notation "LS" ;
+	skos:prefLabel "Search engines."@en .
+<LZ> a skos:Concept ;
+	skos:notation "LZ" ;
+	skos:prefLabel "None of these, but in this section."@en .
